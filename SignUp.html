@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Good Websites</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1 style="color:white">Đăng Nhập </h1> 
+
+<form action="{{url_for('login')}}" method="POST">
+
+    <table>
+        <tr>
+            <td>
+                <h2><input type="tel" placeholder="Số điện thoại" name="phone" required></h2>   
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2><input type="password" placeholder="Mật khẩu" name="password" required></h2>   
+            </td>
+        </tr>
+
+ 
+    </table> 
+    <h2><button class="button">Đăng nhập</button></h2>
+    
+</form> 
+<div class="container"> 
+    <a href="home"><button class="button">Quay lại</button></a>
+</div>
+
+</body>
+
+
+</html>
