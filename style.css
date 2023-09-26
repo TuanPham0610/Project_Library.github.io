@@ -1,0 +1,31 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-nav-top ul{
+    display: flex;
+    align-items: center;
+}
+.right-nav-top ul li{
+    list-style: none;
+    padding: 10px 15px;
+}
+.right-nav-top a{
+    text-decoration: none;
+    color: #000000;
+}
+.right-nav-top button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #f73859;
+    color: #fff;
+
+}
