@@ -1,31 +1,45 @@
-*{
-    margin :0;
-    padding: 0;
-    box-sizing: border-box;
-    /* font-family: ; */
+body{
+    background-image:url('/static/background_home.png');
+    background-size: cover;
+    
 }
-.nav-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h1,h2,h3,h4,a{
+    color:white;
+    font-family:'Cambria',sans-serif;
+    text-align: center;
+    
 }
-.right-nav-top ul{
-    display: flex;
-    align-items: center;
-}
-.right-nav-top ul li{
-    list-style: none;
-    padding: 10px 15px;
-}
-.right-nav-top a{
-    text-decoration: none;
-    color: #000000;
-}
-.right-nav-top button{
-    border: none;
-    padding: 10px 15px;
-    border-radius: 10px;
-    background-color: #f73859;
-    color: #fff;
 
+.container{
+    display:flex;
+    justify-content: center;
+}/*Căn chỉnh nút bấm ra giữa trang web*/
+
+.button{
+    color:black;
+    background-color:white;
+    font-size: medium;
+
+}/*Các nút bấm*/
+
+table{
+    margin:0 auto;  
 }
+
+tr,td{
+    text-align: center;
+}
+
+.corner-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+/*position để cố định chữ ở góc phải dưới trang web
+/* table căn chỉnh các cột của table ra giữa */
+
+/* ctrl + K + C để ghi chú thích */
+/* . là biểu thị 1 class được tạo ra ở bên file html
+ 
